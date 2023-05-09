@@ -1,0 +1,214 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #89ffe5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+ }
+
+ .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+
+.logo-nav{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 0px;
+    margin-left: 20px;
+}
+
+.logo{
+    display: inline-block;
+    margin-right: auto;
+    background-image: url('https://emart24.com.my/wp-content/uploads/emart24-logo-fb.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 300px;
+}
+
+.search{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; /* reset the margin-right */
+  flex: 1;
+}
+ 
+.search form {
+  display: flex;
+  align-items: center;
+}
+
+.search input[type="text"] {
+  align-items: center;
+  align-content: center;
+  width: 900px;
+  height: 30px;
+  border: black;
+  border-style: groove;
+}
+
+.search button[type="submit"] {
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  border: none;
+  background-color: #68c7ef;
+  color: #fff;
+  margin-left: 10px;
+}
+nav {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px; /* add margin-right here */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+  
+nav li:last-child {
+  margin-right: 10;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0099cc;
+}
+
+
+footer {
+  background-color: #2ddad4;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  }
+
+.footer-links div {
+flex: 1;
+margin: 10px;
+text-align: center;
+}
+
+.footer-links h4 {
+font-size: 16px;
+margin-bottom: 5px;
+}
+
+.footer-links p {
+font-size: 14px;
+margin: 0;
+}
+
+footer {
+  background-color: #89ffe5;
+  padding: 40px 0;
+  font-size: 16px;
+}
+
+  .container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-media li:last-child {
+  margin-right: 0;
+}
+
+.social-media a {
+  color: #3b5998; /* Facebook blue */
+}
+
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.footer-links li:first-child {
+  margin-left: 0;
+}
+
+.footer-links a {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #121111;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #2d2626;
+  margin: 20px 0;
+}
